@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+</head>
+    <body style="width: fit-content; padding: 25px; margin: auto"  >
+
+
+    <!-- Form element-->
+        <form method="post" action="https://www.bluecrest.edu.gh" style="border-spacing: 25px;
+              border-color: #7ea0b8; background-color: #A8B8C3"  >
+
+           <center>
+               <h1 style="color: #1d60ff; align-content: center">Feedback Form</h1>
+           </center>
+
+            <h2 style="color: white">Fill the form to help us improve</h2>
+
+            <!-- Hidden inputs-->
+            <input type="hidden" name="recipient" value="300622014004@bluecrest.edu.gh" >
+            <input type="hidden" name="subject" value="Feedback Form">
+            <input type="hidden" name="Redirect" value="Student_Feedback.html">
+
+
+            <p><label for="name"> <strong>Name </strong></label>
+                <input type="text" name="name" id="name" required="">
+            </p>
+
+            <p><label for="email"> <strong>Email</strong></label>
+                <input type="email" name="email" id="email" required="">
+            </p>
+
+            <!--What you like about the college - checkbox input-->
+            <p>
+                <strong>What you like about the college:</strong><br>
+                <label> Campus
+                    <input type="checkbox" name="thingsliked" value="campus">
+                </label>
+
+                <label> Students
+                    <input type="checkbox" name="thingsliked" value="students">
+                </label>
+
+                <label> Location
+                    <input type="checkbox" name="thingsliked" value="location">
+                </label>
+
+                <label> Atmosphere
+                    <input type="checkbox" name="thingsliked" value="atmosphere">
+                </label>
+
+                <label> Dorm rooms
+                    <input type="checkbox" name="thingsliked" value="dorm rooms">
+                </label>
+
+                <label>Sports
+                    <input type="checkbox" name="thingsliked" value="sports">
+                </label>
+            </p>
+
+            <!--How you got about the school  -  radio button input -->
+            <p><label><strong>How did you get to know the college?</strong></label> <br>
+
+                <label>Friends
+                    <input type="radio" name="How you got to know the college" value="friends">
+                </label>
+
+                <label>Television
+                    <input type="radio" name="How you got to know the college" value="television">
+                </label>
+
+                <label>Internet
+                    <input type="radio" name="How you got to know the college" value="internet">
+                </label>
+
+                <label>Others
+                    <input type="radio" name="How you got to know the college" value="others">
+                </label>
+            </p>
+
+            <!-- Comments   -  textarea element-->
+            <p><label><strong>Commets: </strong></label> </p>
+            <textarea  name="comment" cols="30" rows="4" placeholder="Enter comments here..."></textarea>
+
+            <!--  Reset and Submit buttons   -->
+            <center>
+                <p>
+                    <input style="background-color: white" type="submit" value="submit"> <!--Submit button-->
+                    <input style="background-color: white" type="reset" value="clear"> <!--Reset button-->
+                </p>
+            </center>
+
+        </form>
+    </body>
+</html>
